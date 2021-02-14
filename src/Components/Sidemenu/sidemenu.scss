@@ -1,0 +1,33 @@
+.sidemenuContainer{
+    .nameLogo{
+        padding-top: 45%;
+        padding-bottom: 45%;
+        align-items: center;
+        color: #2b2d2e;
+        justify-content: center;
+        .leName{
+            align-self: center;
+        }
+    }
+    .sideLink{
+        height: 3rem;
+        // align-items: center;
+        // justify-content: center;
+        border-top: 1px solid black;
+        a{
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            // line-height: 50%;
+            line-height: 275%;
+            display: block;
+        }
+        a:hover{
+            background-color: #c1d3fe;
+        }
+    }
+    .last{
+        border-bottom: 1px solid black;
+    }
+}
+

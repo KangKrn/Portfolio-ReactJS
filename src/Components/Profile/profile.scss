@@ -1,0 +1,13 @@
+.profileContainer{
+    .row{
+        margin-top: 1rem;
+        .colTitle{
+            text-align: right;
+            padding-right: 1rem !important;
+            border-right: 1px solid black;
+        }
+        .colDesc{
+            padding-left: 1rem !important;
+        }
+    }
+}

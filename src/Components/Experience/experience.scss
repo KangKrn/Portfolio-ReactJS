@@ -1,7 +1,38 @@
 .expContainer{
-    background-color: #adb5b9;
+    background-color: #8cc2ff;
+    color: #555554; 
+    margin-top: 2rem;
+    height: calc(100vh - 4rem);
+    border-radius: 5px;
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
     .expHeader{
-
+        display: block;
+        text-align: center;
     }
-
+    .row{
+        margin-top: 1rem;
+        .colTitle{
+            text-align: right;
+            padding-right: 1rem !important;
+            border-right: 1px solid black;
+        }
+        .col-sm-4{
+            padding-right: 0rem;
+            padding-left: 0rem;
+        }
+        .col-sm-8{
+            padding-right: 0rem;
+            padding-left: 0rem;
+        }
+        ul{
+            padding-left: 0rem;
+            li{
+                list-style-type: none;
+                svg{
+                    margin-right: 1rem;
+                }
+            }
+        }
+    }
 }

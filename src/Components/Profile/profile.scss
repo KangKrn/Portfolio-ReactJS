@@ -1,4 +1,6 @@
 .profileContainer{
+    // align-content: center; 
+    color: white; 
     .row{
         margin-top: 1rem;
         .colTitle{
@@ -8,6 +10,14 @@
         }
         .colDesc{
             padding-left: 1rem !important;
+        }
+        .title{
+            width: 100%;
+            text-align: center;
+        }
+        .img{
+            width: 100%;
+            text-align: center;
         }
     }
 }

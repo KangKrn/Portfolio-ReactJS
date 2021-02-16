@@ -17,7 +17,7 @@ function App() {
     <Router>
       <Container>
         <Row>
-          <Col sm={2} className="sideContainer">
+          <Col sm={1} className="sideContainer">
             <Sidemenu></Sidemenu>
           </Col>
           <Col sm={10} className="mainContainer">
@@ -29,6 +29,7 @@ function App() {
               <Route exact path="/contacts" component={Contacts} />
             </Switch>
           </Col>
+          <Col sm={1}></Col>
         </Row>
       </Container>
     </Router>

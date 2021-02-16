@@ -7,11 +7,9 @@ import './profile.scss';
 function Profile() {
     return(
         <Container className="profileContainer">
-            <Row>
-                Profile
-            </Row>
-            <Row>
-                Image
+            <Row className="titleRow">
+                <div className="title">Profile</div>
+                <div className="img">Image</div>
             </Row>
             <Row>
                 <Col className="colTitle">Name</Col>

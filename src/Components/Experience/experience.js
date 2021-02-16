@@ -11,7 +11,19 @@ function Experience(){
                 Experience
             </Row>
             <Row>
-                Row
+                Frontend Web Development Intern
+                <Col>Agmo Studio</Col>
+            </Row>
+            <Row>
+                <Col>Description</Col>
+                <Col>Agmo Studio is a software development firm offering mobile, blockchain, 
+                and web solutionos within Malaysia</Col>
+            </Row>
+            <Row>
+                <Col>Activities:</Col>
+                <Col>
+                    List
+                </Col>
             </Row>
         </Container>
     );

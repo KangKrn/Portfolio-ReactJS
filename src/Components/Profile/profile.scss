@@ -1,6 +1,10 @@
 .profileContainer{
     // align-content: center; 
-    color: white; 
+    color: #555554; 
+    margin-top: 2rem;
+    background-color: #dddcdb;
+    height: calc(100vh - 4rem);
+    border-radius: 5px;
     .row{
         margin-top: 1rem;
         .colTitle{
@@ -13,11 +17,22 @@
         }
         .title{
             width: 100%;
-            text-align: center;
+            // text-align: center;
         }
-        .img{
-            width: 100%;
-            text-align: center;
+        // .img{
+        //     width: 100%;
+        //     text-align: center;
+        // }
+        img{
+            height: 200px;
+            width: 200px;
         }
     }
+    .titleRow{
+        text-align: center;
+        display: block !important;
+    }
+    // .empty{
+    //     height: 40vh;
+    // }
 }

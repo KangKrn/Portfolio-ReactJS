@@ -6,4 +6,41 @@
     border-radius: 5px;
     padding-left: 4rem !important;
     padding-right: 4rem !important;
+    justify-content: center;
+    .row{
+        height: 100%;
+        .title{
+            align-self: center;
+        }
+        .detailCont{
+            align-self: center;
+            .MuiTimeline-root{
+                .MuiTimelineItem-root{
+                    .MuiTimelineOppositeContent-root{
+                        width: 50%;
+    
+                    }
+                    .MuiTimelineSeparator-root{
+                        .MuiTimelineDot-root{
+    
+                        }
+                    }
+                    .MuiTimelineContent-root{
+                        .MuiPaper-root{
+                            padding: 1rem;
+                        }
+                        .MuiPaper-root{
+                            svg{
+                                margin-right: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.dottedLine{
+    height: 100%;
+    border-right: 1px dashed black;
 }

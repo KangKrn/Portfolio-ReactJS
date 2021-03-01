@@ -11,15 +11,28 @@
             padding-right: 1rem !important;
             border-right: 1px solid black;
         }
-        .colDesc{
-            padding-left: 1rem !important;
-        }
-        .title{
-            width: 100%;
-        }
-        img{
-            height: 200px;
-            width: 200px;
+        .container{
+            .section{
+                margin-left: 0px;
+                margin-top: 0px;
+                font-weight: 700;
+            }
+            .row{
+                .MuiPaper-root{
+                    width: 150px;
+                    height: 150px;
+                    text-align: center;
+                    margin-left: 15px;
+                    div{
+                        padding: 5px;
+                        img{
+                            height: 100px;
+                            width: 100px;
+                            object-fit: contain;
+                        }
+                    }
+                }
+            }
         }
     }
     .titleRow{

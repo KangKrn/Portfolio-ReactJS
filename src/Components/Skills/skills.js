@@ -7,67 +7,91 @@ import './skills.scss';
 import Paper from '@material-ui/core/Paper';
 import angular from '../../Resources/angularLogo.png';
 import js from '../../Resources/javascriptLogo.png';
-import css from '../../Resources/cssLogo.png';
+import css from '../../Resources/icon css 3.png';
 import xd from '../../Resources/adobexdLogo.png';
-import scss from '../../Resources/scssLogo.png';
+import sass from '../../Resources/sassLogo.png';
 import vscode from '../../Resources/vscodeLogo.png';
 import sublime from '../../Resources/sublimeLogo.png';
 import react from '../../Resources/reactLogo.png';
 import njs from '../../Resources/nodejsLogo.png';
+import html from '../../Resources/htmlLogo.png';
+import vs from '../../Resources/vsLogo.png';
+import java from '../../Resources/javaLogo.png';
 
 function Skills(){
     return(
         <Container className="skillsContainer">
             <Row className="titleRow">
-                <div className="title">Profile</div>
+                <div className="title">Skills</div>
             </Row>
             <Row>
                 <Container>
-                    <Row>Languages</Row>
+                    <Row className="section">Languages</Row>
                     <Row>
-                        <Paper>JavaScript</Paper>
-                        <Paper>HTML5</Paper>
-                        <Paper>CSS</Paper>
+                        <Paper>
+                            <div><Image src={js}/></div>
+                            <div>JavaScript</div>
+                        </Paper>
+                        <Paper>
+                            <div><Image src={html}/></div>
+                            <div>HTML5</div>
+                        </Paper>
+                        <Paper>
+                            <div><Image src={css}/></div>
+                            <div>CSS</div>
+                        </Paper>
+                        <Paper>
+                            <div><Image src={java}/></div>
+                            <div>JAVA</div>
+                        </Paper>
                         <Paper>Python</Paper>
                     </Row>
                 </Container>
             </Row>
             <Row>
                 <Container>
-                    <Row>Frameworks</Row>
+                    <Row className="section">Frameworks</Row>
                     <Row>
                         <Paper>
-                            <Row><Image src={angular}/></Row>
-                            <Row>Angular</Row>
+                            <div><Image src={angular}/></div>
+                            <div>Angular</div>
                         </Paper>
                         <Paper>
-                            <Row>
-                                Image
-                            </Row>
-                            <Row>
-                                React
-                            </Row>
+                            <div><Image src={react}/></div>
+                            <div>Reacts</div>
                         </Paper>
                     </Row>
                 </Container>
             </Row>
             <Row>
                 <Container>
+                    <Row className="section">Tools</Row>
                     <Row>
-                        Tools
-                    </Row>
-                    <Row>
-                        VSCode VisualStudio Sublime Word Visio AdobeXD NodeJS
+                        <Paper>
+                            <div><Image src={vscode}/></div><div>VS Code</div>
+                        </Paper>
+                        <Paper>
+                            <div><Image src={vs}/></div><div>Visual Studio</div>
+                        </Paper>
+                        <Paper>
+                            <div><Image src={sublime}/></div><div>Sublime</div>
+                        </Paper>
+                        <Paper>
+                            <div><Image src={xd}/></div><div>Adobe XD</div>
+                        </Paper>
+                        <Paper>
+                            <div><Image src={njs}/></div><div>NodeJS</div>
+                        </Paper>
                     </Row>
                 </Container>
             </Row>
             <Row>
                 <Container>
+                    <Row className="section">Preprocessors</Row>
                     <Row>
-                        Pre-processors
-                    </Row>
-                    <Row>
-                        SASS
+                        <Paper>
+                            <div><Image src={sass}/></div><div>SASS</div>
+                        </Paper>
                     </Row>
                 </Container>
             </Row>

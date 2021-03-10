@@ -58,7 +58,7 @@ function Skills(){
                         </Paper>
                         <Paper>
                             <div><Image src={react}/></div>
-                            <div>Reacts</div>
+                            <div>React JS</div>
                         </Paper>
                     </Row>
                 </Container>

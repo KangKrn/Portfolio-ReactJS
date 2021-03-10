@@ -4,12 +4,36 @@
     background-color: #dddcdb;
     height: calc(100vh - 4rem);
     border-radius: 5px;
+    .titleRow{
+        text-align: center;
+        display: block !important;
+        .title{
+            
+        }
+    }
     .row{
         margin-top: 1rem;
-        .colTitle{
-            text-align: right;
-            padding-right: 1rem !important;
-            border-right: 1px solid black;
+        .container{
+            width: 25%;
+            .row{
+                padding-left: 15px;
+                .col{
+                    padding-left: 10px !important;
+                    padding-right: 10px !important;
+                    img{
+                        float: right;
+                        height: 50px;
+                        width: auto;
+                    }
+                }
+                .conText{
+                    padding-top: 12px;
+                }
+            }
         }
+    }
+    .contactsRow{
+        margin-top: 3rem;
+        justify-content: center;
     }
 }

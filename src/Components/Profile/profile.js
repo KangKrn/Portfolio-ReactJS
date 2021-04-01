@@ -28,7 +28,7 @@ function Profile() {
                 <Col className="colTitle">Titles</Col>
                 <Col  className="colDesc">
                     <div>Fresh Graduate</div>
-                    <div>Frontend Web Developer</div>
+                    <div>Aspiring Frontend Web Developer</div>
                 </Col>
             </Row>
             <Row>

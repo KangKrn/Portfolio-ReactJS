@@ -44,7 +44,7 @@ function Skills(){
                             <div><Image src={java}/></div>
                             <div>JAVA</div>
                         </Paper>
-                        <Paper>Python</Paper>
+                        {/* <Paper>Python</Paper> */}
                     </Row>
                 </Container>
             </Row>

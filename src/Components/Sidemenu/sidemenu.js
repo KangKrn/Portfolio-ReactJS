@@ -11,10 +11,10 @@ function Sidemenu() {
     return(
         <Container className="sidemenuContainer">
             <Row className="nameLogo">
-                <div className="leName">Kang Wie Shen</div>
+                <Link to="/"><div className="leName">Kang Wie Shen</div></Link>
             </Row>
             <Row className="sideLink">
-                <Link to="/">Profile</Link>
+                <Link to="/profile">Profile</Link>
             </Row>
             <Row className="sideLink">
                 <Link to="/experience">Experience</Link>

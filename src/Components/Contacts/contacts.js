@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import TextField from '@material-ui/core/TextField';
 import '../Contacts/contact.scss';
 import Image from 'react-bootstrap/Image';
 import li from '../../Resources/linkedin.svg';
@@ -25,21 +26,6 @@ class Contacts extends Component{
         };
     }
 
-    // handleMouseHover(value){
-    //     if(value == "git"){
-    //         this.setState(this.toggleGit);
-    //         return;
-    //     }else if(value == "linkedIn"){
-    //         this.setState(this.toggleLinkedIn);
-    //         return;
-    //     }else if(value == "facebook"){
-    //         this.setState(this.toggleFacebook);
-    //         return;
-    //     }else if(value == "gmail"){
-    //         this.setState(this.toggleGmail);
-    //     }
-    //     // this.setState(this.toggleHoverState);
-    // }
     handleGitHover(){
         this.setState(this.toggleGit);
     }
@@ -118,7 +104,7 @@ class Contacts extends Component{
                         </Col>
                         <Col  onMouseEnter={this.handleGmailHover} onMouseLeave = {this.handleGmailHover}>
                             {
-                                this.state.gmailIsHovering ? <div>krnsc.kws@gmail.com</div> : <div>Gmail</div>
+                                this.state.gmailIsHovering ? <div className="conText">krnsc.kws@gmail.com</div> : <div className="conText">Gmail</div>
                             }
                         </Col>  
                     </Row>  

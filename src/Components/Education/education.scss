@@ -11,6 +11,7 @@
         height: 100%;
         .title{
             align-self: center;
+            font-size: 4rem;
         }
         .detailCont{
             align-self: center;
@@ -22,7 +23,10 @@
                     }
                     .MuiTimelineSeparator-root{
                         .MuiTimelineDot-root{
-    
+                            background-color: white;
+                        }
+                        .MuiTimelineConnector-root{
+                            background-color: #555545;
                         }
                     }
                     .MuiTimelineContent-root{

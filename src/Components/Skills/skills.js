@@ -20,80 +20,84 @@ import java from '../../Resources/javaLogo.png';
 
 function Skills(){
     return(
-        <Container className="skillsContainer">
+        <Container fluid className="skillsContainer">
             <Row className="titleRow">
                 <div className="title">Skills</div>
             </Row>
             <Row>
-                <Container>
-                    <Row className="section">Languages</Row>
+                <Col>
                     <Row>
-                        <Paper>
-                            <div><Image src={js}/></div>
-                            <div>JavaScript</div>
-                        </Paper>
-                        <Paper>
-                            <div><Image src={html}/></div>
-                            <div>HTML5</div>
-                        </Paper>
-                        <Paper>
-                            <div><Image src={css}/></div>
-                            <div>CSS</div>
-                        </Paper>
-                        <Paper>
-                            <div><Image src={java}/></div>
-                            <div>JAVA</div>
-                        </Paper>
-                        {/* <Paper>Python</Paper> */}
+                        <Container>
+                            <Row className="section">Languages</Row>
+                            <Row>
+                                <Paper>
+                                    <div><Image src={js}/></div>
+                                    <div>JavaScript</div>
+                                </Paper>
+                                <Paper>
+                                    <div><Image src={html}/></div>
+                                    <div>HTML5</div>
+                                </Paper>
+                                <Paper>
+                                    <div><Image src={css}/></div>
+                                    <div>CSS</div>
+                                </Paper>
+                                <Paper>
+                                    <div><Image src={java}/></div>
+                                    <div>JAVA</div>
+                                </Paper>
+                                {/* <Paper>Python</Paper> */}
+                            </Row>
+                        </Container>
                     </Row>
-                </Container>
-            </Row>
-            <Row>
-                <Container>
-                    <Row className="section">Frameworks</Row>
                     <Row>
-                        <Paper>
-                            <div><Image src={angular}/></div>
-                            <div>Angular</div>
-                        </Paper>
-                        <Paper>
-                            <div><Image src={react}/></div>
-                            <div>React JS</div>
-                        </Paper>
+                        <Container>
+                            <Row className="section">Frameworks</Row>
+                            <Row>
+                                <Paper>
+                                    <div><Image src={angular}/></div>
+                                    <div>Angular</div>
+                                </Paper>
+                                <Paper>
+                                    <div><Image src={react}/></div>
+                                    <div>React JS</div>
+                                </Paper>
+                            </Row>
+                        </Container>
                     </Row>
-                </Container>
-            </Row>
-            <Row>
-                <Container>
-                    <Row className="section">Tools</Row>
+                </Col>
+                <Col>
                     <Row>
-                        <Paper>
-                            <div><Image src={vscode}/></div><div>VS Code</div>
-                        </Paper>
-                        <Paper>
-                            <div><Image src={vs}/></div><div>Visual Studio</div>
-                        </Paper>
-                        <Paper>
-                            <div><Image src={sublime}/></div><div>Sublime</div>
-                        </Paper>
-                        <Paper>
-                            <div><Image src={xd}/></div><div>Adobe XD</div>
-                        </Paper>
-                        <Paper>
-                            <div><Image src={njs}/></div><div>NodeJS</div>
-                        </Paper>
+                        <Container>
+                            <Row className="section">Tools</Row>
+                            <Row>
+                                <Paper>
+                                    <div><Image src={vscode}/></div><div>VS Code</div>
+                                </Paper>
+                                <Paper>
+                                    <div><Image src={vs}/></div><div>Visual Studio</div>
+                                </Paper>
+                                <Paper>
+                                    <div><Image src={sublime}/></div><div>Sublime</div>
+                                </Paper>
+                                <Paper>
+                                    <div><Image src={xd}/></div><div>Adobe XD</div>
+                                </Paper>
+                            </Row>
+                        </Container>
                     </Row>
-                </Container>
-            </Row>
-            <Row>
-                <Container>
-                    <Row className="section">Preprocessors</Row>
                     <Row>
-                        <Paper>
-                            <div><Image src={sass}/></div><div>SASS</div>
-                        </Paper>
+                        <Container>
+                            <Row className="section">Preprocessors</Row>
+                            <Row>
+                                <Paper>
+                                    <div><Image src={sass}/></div><div>SASS</div>
+                                </Paper>
+                            </Row>
+                        </Container>
                     </Row>
-                </Container>
+                </Col>
+                
             </Row>
             
         </Container>

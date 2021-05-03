@@ -9,20 +9,27 @@
     margin-right: 0rem !important;
     .row{
         margin-top: 1rem;
+        .title{
+            font-size: 4rem;
+            font-weight: 5  00;
+            padding-top: 2%;
+        }
         .colTitle{
             text-align: right;
             padding-right: 1rem !important;
             border-right: 1px solid black;
+            font-weight: 400;
         }
         .colDesc{
             padding-left: 1rem !important;
+            font-weight: 400;
         }
         .title{
             width: 100%;
         }
         img{
-            height: 200px;
-            width: 200px;
+            height: 250px;
+            width: 250px;
         }
     }
     .titleRow{

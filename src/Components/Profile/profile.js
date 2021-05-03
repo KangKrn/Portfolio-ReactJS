@@ -8,7 +8,7 @@ import Me from '../../Resources/croppedProfile.jpg'
 
 function Profile() {
     return(
-        <Container className="profileContainer">
+        <Container className="profileContainer" fluid>
             <Row className="titleRow">
                 <div className="title">Profile</div>
                 <Image src={Me} roundedCircle/>

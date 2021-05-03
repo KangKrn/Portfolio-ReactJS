@@ -11,7 +11,7 @@ function Description() {
             <div className="textLines">
                 <div>Made with</div>
                 <div><Image src={react}/></div>
-                <div>with other libraries</div>
+                <div>and</div>
                 <div><Image src={mui}/> & <Image src={bstrap}/></div>
                 <div>Coded by</div>
                 <div>Kang Wie Shen</div>

@@ -18,9 +18,9 @@ import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
 
 function Education(){
     return(
-        <Container className="educationContainer">
+        <Container fluid className="educationContainer">
             <Row>
-                <Col sm={3} className="title">This is Education</Col>
+                <Col sm={3} className="title">Education</Col>
                 <Col sm={9} className="detailCont">
                     <Timeline align="alternate">
 

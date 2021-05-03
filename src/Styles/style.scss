@@ -1,12 +1,25 @@
-#root{
-    height: 100vh;
-    width: 100vw;
+html{
     background-color: #2a2a2a;
 }
+#root{
+    // height: 100vh;
+    // width: 100vw;
+    background-color: #2a2a2a;
+    font-family: 'Raleway', sans-serif;
+}
 @media (min-width: 1200px){
-    .container{
+    .container-fluid{
         max-width: 100vw !important;
+        width: calc(100% - 4rem) !important;
+        .baseRow{
+            align-items: center;
+            justify-content: center;
+        }
+        // .profileContainer{
+        //     width: calc(100% - 2rem) !important;
+        // }
         .sidemenuContainer{
+            
             .nameLogo{
                 font-size: 1.35rem;
                 
@@ -15,10 +28,52 @@
     }
 }
 
-@media (max-height: 650px){
+@media (max-width: 1200px){
+    .container-fluid{
+        width: calc(100% -  4rem) !important;
+        height: calc(100% - 4rem) !important;
+    }
+}
+@media (max-width: 600px){
+    .educationContainer{
+        padding-left: 0  !important;
+        padding-right: 0 !important;
+        .row{
+            .title{
+                font-size: 2.5rem;
+                padding-left: 4rem;
+                padding-right: 4rem;
+                text-align: center;
+            }
+            .detailCont{
+                .MuiTimeline-root{
+                    padding-right: 0;
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-height: 725px){
+    .container-fluid{
+        // max-width: 100vw !important;
+        width: calc(100% - 4rem) !important;
+    }
+    .profileContainer{
+        // width: calc(100vw - 4rem) !important;
+        .row{
+            img{
+                height: 150px;
+                width: 150px;
+            }
+        }
+    }
     .skillsContainer{
         .row{
-            .container{
+            // .container-fluid{
+            //     width: calc(100% - 4rem) !important;
                 .row{
                     .MuiPaper-root{
                         width: 100px;
@@ -37,12 +92,13 @@
             }
         }
     }
-}
-.container{
+
+.container-fluid{
     // height: 100%;
     // width: 100%;
-    margin-left: 0rem !important;
-    margin-right: 0rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+    
     .sideContainer{ 
         background-color: #2a2a2a;
         height: 100vh;
@@ -61,4 +117,60 @@
     padding-right: 0rem !important;
     padding-left: 0rem !important;
 }
+.react-burger-menu-btn{
+    background: none;
+}
+.bm-overlay{
+    width: 300px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 45px;
+    top: 45px;
+    // background-color: black;
+    
+}
+.bm-burger-bars{
+    color: black;
+}
+.bm-menu-wrap{
+    // left: 32px;
+    top: 0px;
+}
+.bm-item-list{
+    background-color: #1d1d1d;
+    padding-top: 2rem;
+    // padding-left: 2rem;
+    .bm-item {
+        display: inline-block;
+        /* Our sidebar item styling */
+        text-decoration: none;
+        margin-bottom: 10px;
+        color: #d1d1d1;
+        transition: color 0.2s;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+    }
+}
 
+.bm-burger-bars {
+    background: #373a47;
+}
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+    top: 40px !important;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+    background: #bdc3c7;
+}
+.bm-item-list .bm-item:hover{
+    background-color: #9a9a99    ;
+}

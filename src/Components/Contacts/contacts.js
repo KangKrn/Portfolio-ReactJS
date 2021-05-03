@@ -61,9 +61,9 @@ class Contacts extends Component{
 
     render(){
         return(
-        <Container className="contactContainer">
+        <Container fluid className="contactContainer">
            <Row className="titleRow">
-                <div className="title">Profile</div>
+                <div className="title">Contacts</div>
             </Row>
            <Row className="contactsRow">
                 <Container>
@@ -73,7 +73,7 @@ class Contacts extends Component{
                         </Col>
                         <Col onMouseEnter={this.handleGitHover} onMouseLeave={this.handleGitHover}>
                             {
-                                this.state.gitIsHovering ? <div className="conText">https://github.com/KangKrn</div> : <div className="conText">GitHub</div>
+                                this.state.gitIsHovering ? <div className="conText"><a href="https://github.com/KangKrn">https://github.com/KangKrn</a></div> : <div className="conText">GitHub</div>
                             }
                         </Col>
                     </Row>

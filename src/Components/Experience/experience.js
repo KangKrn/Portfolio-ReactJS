@@ -10,7 +10,7 @@ import {faAngleDoubleRight} from '@fortawesome/free-solid-svg-icons'
 const icon = <FontAwesomeIcon icon={faAngleDoubleRight} />
 function Experience(){
     return(
-        <Container className="expContainer">
+        <Container fluid className="expContainer">
             <Row className="expHeader">
                 Experience
             </Row>

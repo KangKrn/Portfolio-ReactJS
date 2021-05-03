@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    font-size: 2.1rem;
     .textLines{
         background-color: #dddcdb;
         align-items: center;
@@ -24,3 +25,21 @@
         }
     }
 }
+@media screen and (max-device-width: 480px){
+    .descContainer{
+        color: #555554; 
+        margin-top: 0rem;
+        height: calc(100vh - 4rem);
+        border-radius: 5px;
+        margin-left: 2rem !important;
+        margin-right: 0rem !important;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 2.1rem;
+    }
+}
+// .row{
+//     align-items: center;
+//     justify-content: center;
+// }

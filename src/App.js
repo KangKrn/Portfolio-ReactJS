@@ -18,9 +18,18 @@ const mainMenu = true;
 function App() {
     return (
       <Router>
-        <Container>
-          <Row>
-            <Col className="sideContainer">
+        {/* <Container>
+          <Row className="baseRow"> */}
+            <Sidemenu/>
+            <Switch>
+                <Route exact path="/" component={Description} />
+                <Route exact path="/profile" component={Profile} />
+                <Route exact path="/experience" component={Experience} />
+                <Route exact path="/education" component={Education} />
+                <Route exact path="/skills" component={Skills} />
+                <Route exact path="/contacts" component={Contacts} />
+              </Switch>
+            {/* <Col className="sideContainer">
               <Sidemenu/>
             </Col>
             <Col sm={10} className="mainContainer">
@@ -32,9 +41,9 @@ function App() {
                 <Route exact path="/skills" component={Skills} />
                 <Route exact path="/contacts" component={Contacts} />
               </Switch>
-            </Col>
-          </Row>
-        </Container>
+            </Col> */}
+          {/* </Row>
+        </Container> */}
       </Router>
     );
   }

@@ -13,7 +13,7 @@ import sass from '../../Resources/sassLogo.png';
 import vscode from '../../Resources/vscodeLogo.png';
 import sublime from '../../Resources/sublimeLogo.png';
 import react from '../../Resources/reactLogo.png';
-import njs from '../../Resources/nodejsLogo.png';
+// import njs from '../../Resources/nodejsLogo.png';
 import html from '../../Resources/htmlLogo.png';
 import vs from '../../Resources/vsLogo.png';
 import java from '../../Resources/javaLogo.png';

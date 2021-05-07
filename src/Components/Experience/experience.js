@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Table from 'react-bootstrap/Table';
+// import Table from 'react-bootstrap/Table';
 import './experience.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faAngleDoubleRight} from '@fortawesome/free-solid-svg-icons'

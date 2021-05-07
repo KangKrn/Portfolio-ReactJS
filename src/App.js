@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Sidemenu from './Components/Sidemenu/sidemenu';
 // import { HashRouter } from "react-router-dom";
 
-const mainMenu = true;
+// const mainMenu = true;
 
 function App() {
     return (

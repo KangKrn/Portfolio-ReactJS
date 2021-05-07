@@ -1,8 +1,8 @@
 {
-  "homepage": "http://KangKrn.github.io/kang-portfolio",
   "name": "kang-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kangkrn.github.io/Portfolio-ReactJS",
   "dependencies": {
     "-": "0.0.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
@@ -27,13 +27,12 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-    
   },
   "eslintConfig": {
     "extends": [

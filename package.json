@@ -2,7 +2,7 @@
   "name": "kang-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kangkrn.github.io/Portfolio-ReactJS",
+  "homepage": "https://kangkrn.github.io/Portfolio",
   "dependencies": {
     "-": "0.0.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.34",

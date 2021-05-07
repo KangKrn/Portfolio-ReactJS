@@ -11,7 +11,7 @@ function Sidemenu() {
     
     return(
         <Menu>
-            <a className="menu-item" href="/Portfolio-ReactJS">Kang Wie Shen</a>
+            <a className="menu-item" href="/">Kang Wie Shen</a>
             <a className="menu-item" href="/profile">Profile</a>
             <a className="menu-item" href="/experience">Experience</a>
             <a className="menu-item" href="/education">Education</a>

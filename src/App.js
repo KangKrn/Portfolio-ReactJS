@@ -9,15 +9,16 @@ import Description from '../src/Components/Description/description';
 import './Styles/style.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Sidemenu from './Components/Sidemenu/sidemenu';
+import { HashRouter } from "react-router-dom";
 
 const mainMenu = true;
 
 function App() {
     return (
-      <Router basename={public.env.PUBLIC_URL}>
+      <Router basename="/">
         <Sidemenu/>
         <Switch>
-            <Route exact path="/Portfolio-ReactJS" component={Description} />
+            <Route exact path="/" component={Description} />
             <Route exact path="/profile" component={Profile} />
             <Route exact path="/experience" component={Experience} />
             <Route exact path="/education" component={Education} />

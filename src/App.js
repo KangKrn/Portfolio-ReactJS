@@ -9,7 +9,6 @@ import Description from '../src/Components/Description/description';
 import './Styles/style.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Sidemenu from './Components/Sidemenu/sidemenu';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const mainMenu = true;
 
